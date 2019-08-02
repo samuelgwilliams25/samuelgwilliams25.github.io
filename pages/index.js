@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   height:100vh;
 `;
 
+console.log('hello');
 export default () => (
   <Wrapper>
     <ContactForm />

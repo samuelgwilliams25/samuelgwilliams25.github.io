@@ -165,7 +165,7 @@ var Fieldset = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.fieldset
 var HeaderWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "contactForm__HeaderWrapper",
   componentId: "sc-1aonc4b-7"
-})(["min-width:80%;"]);
+})(["min-width:90%;"]);
 var Header = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.h1.withConfig({
   displayName: "contactForm__Header",
   componentId: "sc-1aonc4b-8"
@@ -426,8 +426,8 @@ function (_Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Splash).call(this, props));
     _this.state = {
-      imgHasPlayed: true,
-      hasPlayed: true
+      imgHasPlayed: false,
+      hasPlayed: false
     };
     return _this;
   }
@@ -443,14 +443,14 @@ function (_Component) {
             imgHasPlayed: true
           };
         });
-      }, 3000);
+      }, 2900);
       setTimeout(function () {
         _this2.setState(function (prevState) {
           return {
             hasPlayed: true
           };
         });
-      }, 3900);
+      }, 3700);
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Wrapper, {
         hasPlayed: this.state.hasPlayed,
         __source: {

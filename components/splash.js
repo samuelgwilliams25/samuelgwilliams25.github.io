@@ -74,8 +74,8 @@ class Splash extends Component {
     super(props);
 
     this.state = {
-      imgHasPlayed:true,
-      hasPlayed:true
+      imgHasPlayed:false,
+      hasPlayed:false
     }
 
 
@@ -85,12 +85,12 @@ class Splash extends Component {
       this.setState(prevState => ({
         imgHasPlayed: true
       }))
-    },3000);
+    },2900);
     setTimeout(() => {
       this.setState(prevState => ({
         hasPlayed: true
       }))
-    },3900);
+    },3700);
 
 
     return (

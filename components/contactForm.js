@@ -77,7 +77,7 @@ const Fieldset = styled.fieldset`
 `;
 
 const HeaderWrapper = styled.div`
-  min-width:80%;
+  min-width:90%;
 `;
 const Header = styled.h1``;
 

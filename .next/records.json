@@ -22,16 +22,19 @@
       "static/ekAkzCs9Rt91OYEcufkbL/pages/index.js": 8,
       "static/SU867aFWRQUt-k04OP2Nb/pages/_app.js": 2,
       "static/SU867aFWRQUt-k04OP2Nb/pages/_error.js": 3,
-      "static/SU867aFWRQUt-k04OP2Nb/pages/index.js": 4
+      "static/SU867aFWRQUt-k04OP2Nb/pages/index.js": 4,
+      "static/Cr4aUPSdWtI2HUgqr94Fm/pages/_app.js": 6,
+      "static/Cr4aUPSdWtI2HUgqr94Fm/pages/_error.js": 7,
+      "static/Cr4aUPSdWtI2HUgqr94Fm/pages/index.js": 8
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      2,
-      3,
-      4,
-      5
+      5,
+      6,
+      7,
+      8
     ]
   }
 }

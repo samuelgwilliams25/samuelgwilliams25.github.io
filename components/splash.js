@@ -74,8 +74,8 @@ class Splash extends Component {
     super(props);
 
     this.state = {
-      imgHasPlayed:false,
-      hasPlayed:false
+      imgHasPlayed:true,
+      hasPlayed:true
     }
 
 

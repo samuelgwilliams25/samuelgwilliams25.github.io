@@ -12,8 +12,8 @@ const Wrapper = styled.div`
 
 const TextLine = styled.input`
   display:block;
-  width: 80%;
-  margin-left:10%;
+  width: 90%;
+  margin-left:5%;
   height:20px;
   border-radius:4px;
   border-style: solid;
@@ -28,8 +28,8 @@ const TextLine = styled.input`
 
 const TextBox = styled.textarea`
   display:block;
-  margin-left:10%;
-  width:80%;
+  margin-left:5%;
+  width:90%;
   height:80px;
   border-radius:4px;
   border-style: solid;
@@ -42,35 +42,38 @@ const TextBox = styled.textarea`
 `;
 
 const Label = styled.label`
-  margin-left:10%;
+  margin-left:5%;
   font-size:18px;
 `;
 
 const Button = styled.button`
   display:block;
   position:absolute;
-  right:20px;
+  right:5%;
   bottom:10px;
   margin-bottom:5px;
   height:40px;
-  width:60px;
+  width:100px;
   border: 1px solid #DEDEDE;
   border-radius: 4px;
   background-color: rgb(22,42,62);
   color:white;
   font-size:16px;
-  font-family: 'Blinker', sans-serif
+  font-family: 'Blinker', sans-serif;
+  text-align:center;
+  padding-right:5px;
+  padding-left:5px;
 `;
 
 const Form = styled.form`
-  min-width:80%;
+  min-width:90%;
 
 `;
 
 const Fieldset = styled.fieldset`
   position:relative;
   padding-bottom:60px;
-  padding-top:40px;
+  padding-top:20px;
 `;
 
 const HeaderWrapper = styled.div`

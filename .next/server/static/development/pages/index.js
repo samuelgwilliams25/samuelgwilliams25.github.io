@@ -141,27 +141,27 @@ var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withC
 var TextLine = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.input.withConfig({
   displayName: "contactForm__TextLine",
   componentId: "sc-1aonc4b-1"
-})(["display:block;width:80%;margin-left:10%;height:20px;border-radius:4px;border-style:solid;border-color:#DEDEDE;border-width:1px;margin-bottom:20px;margin-top:5px;padding:5px;font-family:'Blinker',sans-serif;font-size:14px;"]);
+})(["display:block;width:90%;margin-left:5%;height:20px;border-radius:4px;border-style:solid;border-color:#DEDEDE;border-width:1px;margin-bottom:20px;margin-top:5px;padding:5px;font-family:'Blinker',sans-serif;font-size:14px;"]);
 var TextBox = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.textarea.withConfig({
   displayName: "contactForm__TextBox",
   componentId: "sc-1aonc4b-2"
-})(["display:block;margin-left:10%;width:80%;height:80px;border-radius:4px;border-style:solid;border-color:#DEDEDE;border-width:1px;margin-top:5px;padding:5px;font-family:'Blinker',sans-serif;font-size:14px;"]);
+})(["display:block;margin-left:5%;width:90%;height:80px;border-radius:4px;border-style:solid;border-color:#DEDEDE;border-width:1px;margin-top:5px;padding:5px;font-family:'Blinker',sans-serif;font-size:14px;"]);
 var Label = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.label.withConfig({
   displayName: "contactForm__Label",
   componentId: "sc-1aonc4b-3"
-})(["margin-left:10%;font-size:18px;"]);
+})(["margin-left:5%;font-size:18px;"]);
 var Button = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.button.withConfig({
   displayName: "contactForm__Button",
   componentId: "sc-1aonc4b-4"
-})(["display:block;position:absolute;right:20px;bottom:10px;margin-bottom:5px;height:40px;width:60px;border:1px solid #DEDEDE;border-radius:4px;background-color:rgb(22,42,62);color:white;font-size:16px;font-family:'Blinker',sans-serif"]);
+})(["display:block;position:absolute;right:5%;bottom:10px;margin-bottom:5px;height:40px;width:100px;border:1px solid #DEDEDE;border-radius:4px;background-color:rgb(22,42,62);color:white;font-size:16px;font-family:'Blinker',sans-serif;text-align:center;padding-right:5px;padding-left:5px;"]);
 var Form = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.form.withConfig({
   displayName: "contactForm__Form",
   componentId: "sc-1aonc4b-5"
-})(["min-width:80%;"]);
+})(["min-width:90%;"]);
 var Fieldset = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.fieldset.withConfig({
   displayName: "contactForm__Fieldset",
   componentId: "sc-1aonc4b-6"
-})(["position:relative;padding-bottom:60px;padding-top:40px;"]);
+})(["position:relative;padding-bottom:60px;padding-top:20px;"]);
 var HeaderWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "contactForm__HeaderWrapper",
   componentId: "sc-1aonc4b-7"
@@ -204,19 +204,19 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Wrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(HeaderWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Header, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 107
         },
         __self: this
       }, "Contact Willient")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Form, {
@@ -224,20 +224,20 @@ function (_Component) {
         method: "post",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 109
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Fieldset, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 110
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Label, {
         htmlFor: "first",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 111
         },
         __self: this
       }, "First Name", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TextLine, {
@@ -248,14 +248,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 113
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Label, {
         htmlFor: "last",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 115
+          lineNumber: 118
         },
         __self: this
       }, "Last Name", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TextLine, {
@@ -266,14 +266,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 120
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Label, {
         htmlFor: "company",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 125
         },
         __self: this
       }, "Company", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TextLine, {
@@ -284,14 +284,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 127
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Label, {
         htmlFor: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 132
         },
         __self: this
       }, "Email", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TextLine, {
@@ -303,14 +303,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 134
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Label, {
         htmlFor: "phone",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 140
         },
         __self: this
       }, "Phone Number", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TextLine, {
@@ -321,14 +321,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 142
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Label, {
         htmlFor: "inquiry",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 150
         },
         __self: this
       }, "Inquiry", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(TextBox, {
@@ -339,14 +339,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149
+          lineNumber: 152
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Button, {
         type: "submit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 158
         },
         __self: this
       }, "Send"))));
@@ -426,8 +426,8 @@ function (_Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Splash).call(this, props));
     _this.state = {
-      imgHasPlayed: false,
-      hasPlayed: false
+      imgHasPlayed: true,
+      hasPlayed: true
     };
     return _this;
   }

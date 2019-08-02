@@ -9,7 +9,6 @@ module.exports = withPlugins([withCSS,withImages],{
     return{
       "/": {page:"/"},
       //"/Projects": {page:"/Projects"},
-      "/Resume": {page: "/Resume"}
     }
   },
   assetPrefix: !debug ? '' : '',
